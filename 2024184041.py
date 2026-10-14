@@ -47,7 +47,8 @@ class Ball():
     def update(self):
         pass
 
-    
+    def draw(self):
+        pass
 
 def handle_events():
     global running
