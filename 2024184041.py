@@ -52,9 +52,9 @@ class Ball():
             self.image = Ball.big_image
             self.size = 41
 
-        self.x = random.randint(0, 800)
+        self.x = 400
         self.y = 60
-        self.speed = random.randint(1, 20) 
+        self.speed = random.randint(1, 18) 
 
     def update(self):
         self.y += self.speed
@@ -94,7 +94,7 @@ def reset_world():
     world.append(zombie)
 
     team = [Boy() for i in range(11)]
-    world += [Ball() for i in range(20)]
+    world += [Ball() for i in range(1)]
     world += team
 
 def update_world():
