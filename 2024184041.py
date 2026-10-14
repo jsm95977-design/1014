@@ -59,7 +59,7 @@ class Ball():
     def update(self):
         self.y += self.speed
 
-        if self.y >= 600 - self.size:
+        if self.y >= 600 - self.size//2:
 
             self.y -= 20
 
