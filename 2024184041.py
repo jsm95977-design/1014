@@ -52,7 +52,7 @@ class Ball():
             self.image = Ball.big_image
             self.size = 41
 
-        self.x = 400
+        self.x = random.randint(0,800)
         self.y = 60
         self.speed = random.randint(1, 18) 
 
