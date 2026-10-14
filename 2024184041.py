@@ -52,15 +52,15 @@ class Ball():
             self.image = Ball.big_image
             self.size = 41
 
-        self.x = random.randint(0,800)
+        self.x = random.randint(20,780)
         self.y = 60
-        self.speed = random.randint(1, 18) 
+        self.speed = random.randint(17, 18) 
 
     def update(self):
         self.y += self.speed
 
-        if self.y >= 600 - self.size//2:
-            self.y -= self.speed
+        if self.y >= 600 - self.size:
+            self.y -= 50
 
 
 
