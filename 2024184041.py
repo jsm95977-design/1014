@@ -43,8 +43,11 @@ class Zombie:
 class Ball():
     def __init__(self):
         pass
-    
 
+    def update(self):
+        pass
+
+    
 
 def handle_events():
     global running
