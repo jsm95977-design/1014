@@ -54,13 +54,14 @@ class Ball():
 
         self.x = random.randint(20,780)
         self.y = 60
-        self.speed = random.randint(17, 18) 
+        self.speed = random.randint(5, 18) 
 
     def update(self):
         self.y += self.speed
 
         if self.y >= 600 - self.size:
-            self.y -= 50
+
+            self.y -= 20
 
 
 
