@@ -94,7 +94,7 @@ def reset_world():
     world.append(zombie)
 
     team = [Boy() for i in range(11)]
-    world += [Ball() for i in range(1)]
+    world += [Ball() for i in range(20)]
     world += team
 
 def update_world():
